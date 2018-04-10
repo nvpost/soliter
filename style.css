@@ -1,0 +1,45 @@
+#draggable {font-size: x-large; border: thin solid black;
+            width: 5em; text-align: center; padding:10px;
+cursor: pointer;
+}
+#place{
+  font-size: x-large; 
+  border: thin solid black;
+  width: 15em; 
+  text-align: center; 
+  padding:10px;
+  left: 300px;
+  position: absolute;
+  
+}
+.hover{
+  border: 1px solid green !important;
+}
+.board{
+  height: 800px;
+  width: 1300px;
+  border: thin solid gray;
+}
+.top-deck>div, .table-card-place{
+  display: inline-block;
+vertical-align: top;
+}
+.close-deck, .open-deck, .table-card-place{
+  width: 170px;
+  height: 210px;
+  border: 1px solid gray;
+  margin: 5px;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+.close-deck>img, .open-deck-card{
+  width: 150px;
+  height: 200px;
+}
+.block-close{
+  margin-top: -170px;
+  margin-left: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
